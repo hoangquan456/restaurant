@@ -1,0 +1,195 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto';
+}
+
+.catering {
+    display: flex;
+    background-color: #ffb9cd;
+    padding: 2rem 0 0 2rem;
+}
+
+.catering .flex-item {
+    flex: 1 1 0px;
+}
+
+.catering .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.8rem;
+}
+
+.catering .hero {
+    font-family: 'DynaPuff';
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+.catering .description {
+    font-size: 1.4rem;
+    font-weight: 370;
+}
+
+.catering .button {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+}
+
+.orderNow{
+    display: flex;
+    padding: 0px 2rem;
+}
+
+.orderNow .flex-item {
+    flex: 1 1 0;
+}
+
+.orderNow img {
+    max-width: 60%;
+}
+
+.orderNow .imgDiv {
+    display: flex;
+    justify-content: center;
+    background-color: #ffb9cd;
+    margin: 5rem 4rem 5rem 0rem;  
+    
+    border-radius: 3rem;
+}
+
+.orderNow .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.4rem;
+}
+
+
+.orderNow .hero2{
+    font-family: 'DynaPuff';
+    font-weight: 900;
+    font-size: 3rem;   
+}
+
+.orderNow .description2{
+    font-size: 1.2rem;
+    font-weight: 370;
+}
+
+.orderNow .button2 {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 40px;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border: none;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12rem 4rem;
+    height: 40vh;
+    transition: background-color 0.5s ease;
+    border-radius: 50px;
+    margin-bottom: 20rem;
+    padding-right: 3rem;
+}
+
+.tile .imgDiv {
+    flex: 4.5 1 0;
+    display: flex;
+    /* justify-content: flex-end; */
+}
+
+.tile .text {
+    flex: 5.5  1 0;
+}
+
+.tile img {
+    max-width: 100%;
+}
+
+.tile .name {
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "DynaPuff";
+}
+
+.tile .text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    align-items: flex-start;
+}
+.tile .description {
+    font-size: 1.1rem;
+}
+
+.tile .buttonDiv {
+    display: flex;
+    gap: 1rem;
+}
+
+.tile .buttonDiv button {
+    border: none;
+    background-color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.tile:nth-child(1):hover{
+    background-color: rgb(157, 0, 0);
+    transition: background-color 0.5s ease, color 0.5s ease;
+    color: white;
+}
+
+.tile:nth-child(2):hover{
+    background-color: #59352b;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    color: white;
+}
+
+.tile:nth-child(3):hover{
+    background-color: #bdf3b8;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.tile:nth-child(4):hover{
+    background-color: #673d28;
+    transition: background-color 0.5s ease, color 0.5s ease;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 4rem;
+    background-color: #ffb9cdc3;
+
+}
+
+#menu {
+    background-color: #ffb9cd00;
+    font-size: 1.2rem;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
